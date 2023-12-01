@@ -1,5 +1,5 @@
 .navsection{
-    background-color: black;
+    background-color: blue;
     align-items: center;
     padding: 28px 111px;
     max-width: 1512px;
@@ -34,15 +34,16 @@ padding: 12px 40px;
 justify-content: center;
 align-items: center;
 gap: 10px;
+color: white;
 }
 
 .secondsection{
     display: flex;
-max-width: 1512px;
-padding: 92px 111px;
-justify-content: space-between;
-align-items: center;
-background-color: black;
+    max-width: 1512px;
+    padding: 92px 111px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
 }
 
 .leftdiv{
@@ -50,7 +51,7 @@ background-color: black;
 width: 544px;
 flex-direction: column;
 align-items: flex-start;
-gap: 72px;
+gap: 20px;
 flex-shrink: 0;
 }
 
@@ -62,6 +63,8 @@ font-size: 64px;
 font-style: normal;
 font-weight: 500;
 line-height: 120%; /* 76.8px */
+background-color: blue;
+margin: 0px;
 }
 .digitalart{
     color: #D6EF0E;
@@ -81,6 +84,9 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 160%; /* 25.6px */
+background-color: pink;
+margin: 0px;
+width: 480px;
 }
 
 .firstspace{
@@ -90,3 +96,96 @@ align-items: flex-start;
 gap: 20px;
 align-self: stretch;
 }
+
+.green{
+    background-color: green;
+}
+.orange{
+    background-color: orangered;
+}
+.buttonside{
+    display: flex;
+align-items: center;
+gap: 36px;
+}
+.buttonsidebutton{
+    display: flex;
+height: 52px;
+padding: 12px 40px;
+justify-content: center;
+align-items: center;
+border-radius: 8px;
+background: #D6EF0E;
+color: white;
+}
+
+.buttonsidetext{
+    color: var(--white-white-stich, #FFFFFD);
+
+/* H5 */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 19.2px */
+}
+
+.magicaldiv{
+    display: flex;
+width: 544px;
+flex-direction: column;
+align-items: flex-start;
+gap: 40px;
+}
+
+.numberdiv{
+    display: flex;
+width: 509px;
+justify-content: center;
+align-items: center;
+gap: 94px;
+background-color: white;
+}
+
+.numbers{
+    color: #D6EF0E;
+
+/* H2 */
+font-family: Canela;
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%; /* 57.6px */
+}
+
+.kconstant{
+    color: var(--white-white-stich, #FFFFFD);
+
+/* H2 */
+font-family: Canela;
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%;
+}
+.crazydiv{
+    display: flex;
+width: 544px;
+flex-direction: column;
+align-items: flex-start;
+gap: 72px;
+flex-shrink: 0;
+}
+
+.comment{
+    color: var(--white-white-stich, #FFFFFD);
+
+/* Body/Regular */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 25.6px */
+color: pink;
+}
+    
